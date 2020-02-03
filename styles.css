@@ -39,6 +39,7 @@ body {
   font-size: 0.9em;
   font-weight: 400;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -48,6 +49,7 @@ a {
   -o-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
+
 a:hover {
   color: #6387a6;
 }
@@ -56,8 +58,9 @@ p {
   padding: 0;
 }
 h1 {
-  font-size: 3em;
-  margin: 0.5em;
+    /* color: #FFEF94; */
+    font-size: 3em;
+    margin: 0.5em;
 }
 h1, h2 {
   /* font-family: 'Montserrat', sans-serif; */
@@ -187,7 +190,7 @@ h1, h2 {
   border: 0.5em solid #6387a6;
 }
 #banner {
-  background: url(https://raw.github.com/Snacksnack/snacksnack.github.com/master/template/assets/img/bg.jpg) no-repeat fixed 50% 0;
+  background: url(images/hotairballoon.jpg) no-repeat fixed 50% 0;
   background-size: cover;
   text-align: center;
   height: 100%;
@@ -195,7 +198,7 @@ h1, h2 {
   overflow: hidden;
 }
 #banner-text {
-  color: #546360;
+  color: rgb(9, 9, 7);
   width: 24em;
   position: fixed;
   position: absolute;
@@ -209,7 +212,7 @@ h1, h2 {
   transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
 #banner-text:hover {
-  color: #6387a6;
+  color: rgb(252, 235, 137);
 }
 #banner-text:hover #logo div {
   background-color: #6387a6;
@@ -232,7 +235,7 @@ h1, h2 {
   transition: height 0.3s ease 0s, color 0.3s ease 0s;
 }
 #banner-button:hover {
-  color: #6387a6;
+  color: #FFEF94;
   height: 37px;
 }
 #logo {
