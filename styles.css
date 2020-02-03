@@ -20,7 +20,9 @@
 /* @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap'); */
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -30,7 +32,7 @@ body {
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/bedge_grunge.png) repeat;
   color: #546360;
   /* font-family: 'Montserrat', sans-serif; */
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -86,7 +88,8 @@ h1, h2 {
 .data div div {
   margin: 1.2em 0;
 }
-.img-container, .img-anchor img {
+.img-container, .img-anchor  {
+  /* width: 35em; */
   position: relative;
   /* width: 100%; */
 }
@@ -95,11 +98,12 @@ h1, h2 {
   margin-left: 0;
   margin-right: 0;
 }
-.text-container a {
+/* .text-container a {
   border-bottom: 0.1em dotted #274b6a;
-}
+
+} */
 .text-container a:hover {
-  border-bottom: 0.1em dotted #6387a6;
+  border-bottom:  #6387a6;
 }
 .quote {
   font-style: italic;
@@ -135,7 +139,7 @@ h1, h2 {
   top: 0;
   right: 0;
   bottom: 0;
-  content: 'View full image?';
+  content: '';
   color: #274b6a;
   background: rgba(255, 255, 255, 0.5);
   -webkit-transition: opacity 0.3s ease 0s;
