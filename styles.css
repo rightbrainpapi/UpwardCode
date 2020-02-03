@@ -29,7 +29,7 @@ body {
   position: absolute;
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/bedge_grunge.png) repeat;
   color: #546360;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -88,6 +88,7 @@ h1, h2 {
 }
 .img-container, .img-anchor img {
   position: relative;
+  /* width: 100%; */
 }
 .text-container div {
   margin-bottom: 1em;
